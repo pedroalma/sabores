@@ -36,7 +36,7 @@
     background-color: #FFFFFF;
     /* margin-top: 5px; */
     /* font-size: 10px; */
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
     /* font-family: "Julius Sans One", serif; */
@@ -73,3 +73,6 @@
     display: flex;
     align-items: center;
 } 
+.texto-pro{
+    text-align: center;
+}
