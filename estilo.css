@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    font-family: 'Roboto';
+    background-color: #fffbeb;
+}
+.header-estilo{
+    background-color: #E07609;
+    text-align: center;
+    border: 10px solid #E07609;
+    color: #FFFFFF;
+}
+.header_sabor{
+    background-color: #E07609;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.header_descu{
+    background-color: #E07609;
+    font-size: 20px;
+}
+.main_recei{
+    color:#92400e ;
+    text-align: center;
+}
+.main-produtos {
+    flex: 1;
+}
+.adiciona-div1{
+    margin: 90px;
+    margin-top: 55px;
+}
+.adiciona{
+    border-radius: 15px;
+    /* height: 280px; */
+    /* width: 220px; */
+    background-color: #FFFFFF;
+    /* margin-top: 5px; */
+    /* font-size: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* font-family: "Julius Sans One", serif; */
+    font-weight: 600;
+    font-style: normal;
+    justify-content: center;
+    font-style: normal;
+    justify-content: center;
+    align-content: center;
+}
+.pao{
+    /* margin-top: 15px; */
+    height: 140px;
+    width: 100%;
+}
+.ponto-adic{
+    font-size: 8px;
+    margin-top: 20px;
+}
+.img-icon{
+    width: 20px;
+    background-color: #FFFFFF;
+}
+.h1-icon{
+    font-size: 12px;
+    background-color: #FFFFFF;
+}
+.grupo-icon{
+    display: flex;
+    background-color: #FFFFFF;
+} 
+.grupo-icon1{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+} 
