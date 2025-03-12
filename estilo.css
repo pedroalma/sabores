@@ -1,7 +1,10 @@
 *{
     margin: 0;
-    font-family: 'Roboto';
-    background-color: #fffbeb;
+    font-family: sans-serif;
+    background-color: #FFFBEB;
+}
+:root{
+    --tamanho:400px;
 }
 .header-estilo{
     background-color: #E07609;
@@ -30,10 +33,11 @@
     margin-top: 55px;
 }
 .adiciona{
+    width: var(--tamanho);
     border-radius: 15px;
     /* height: 280px; */
     /* width: 220px; */
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     /* margin-top: 5px; */
     /* font-size: 10px; */
     /* display: flex; */
@@ -50,7 +54,7 @@
 .pao{
     /* margin-top: 15px; */
     height: 140px;
-    width: 100%;
+    width: var(--tamanho);
 }
 .ponto-adic{
     font-size: 8px;
@@ -62,11 +66,14 @@
 }
 .h1-icon{
     font-size: 12px;
+    color: #7A7A7A;
     background-color: #FFFFFF;
 }
 .grupo-icon{
     display: flex;
     background-color: #FFFFFF;
+    justify-content: space-between;    
+    width: 95%;
 } 
 .grupo-icon1{
     background-color: #FFFFFF;
@@ -74,5 +81,30 @@
     align-items: center;
 } 
 .texto-pro{
-    text-align: center;
+    /* text-align: center; */
+    /* margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.texto-pro1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+}
+.cima{
+    font-size: 25px;
+    color: #9C4512;
+    background-color: #ffffff;
+}
+.baixo{
+    font-size: 15px;
+    color: #7A7A7A;
+    background-color: #ffffff;
 }

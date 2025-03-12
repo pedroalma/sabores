@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribui os textos igualmente */
+    width: 80%; /* Ajuste conforme necessário */
+    margin: auto; /* Centraliza na tela */
+}
+.texto {
+    text-align: center;
+    flex: 1; /* Cada texto ocupa o mesmo espaço */
+}
