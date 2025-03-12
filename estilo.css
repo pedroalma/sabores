@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: sans-serif;
-    background-color: #FFFBEB;
+    background-color: #FFF3C2;
 }
 :root{
     --tamanho:400px;
@@ -52,8 +52,10 @@
     align-content: center;
 }
 .pao{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     /* margin-top: 15px; */
-    height: 140px;
+    /* height: 140px; */
     width: var(--tamanho);
 }
 .ponto-adic{
@@ -70,10 +72,12 @@
     background-color: #FFFFFF;
 }
 .grupo-icon{
+    margin-top: 15px;
     display: flex;
     background-color: #FFFFFF;
     justify-content: space-between;    
-    width: 95%;
+    width: 92%;
+    margin-bottom: 15px;
 } 
 .grupo-icon1{
     background-color: #FFFFFF;
@@ -91,6 +95,8 @@
     margin-right: 15px;
 }
 .texto-pro1{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     display: flex;
     /* flex-wrap: wrap; */
     /* justify-content: space-evenly; */
@@ -99,11 +105,13 @@
     align-items: center;
 }
 .cima{
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 20px;
     color: #9C4512;
     background-color: #ffffff;
 }
 .baixo{
+    margin-top: 13px;
     font-size: 15px;
     color: #7A7A7A;
     background-color: #ffffff;
