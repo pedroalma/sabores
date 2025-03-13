@@ -3,6 +3,9 @@
     font-family: sans-serif;
     background-color: #FFF3C2;
 }
+a {
+    text-decoration: none;
+}
 :root{
     --tamanho:400px;
 }
@@ -26,11 +29,16 @@
     text-align: center;
 }
 .main-produtos {
-    flex: 1;
+    /* flex: 1; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly;  */
+    justify-content: center;
+    gap: 20px;
 }
 .adiciona-div1{
-    margin: 90px;
-    margin-top: 55px;
+    /* margin: 90px;
+    margin-top: 55px; */
 }
 .adiciona{
     width: var(--tamanho);
@@ -55,7 +63,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     /* margin-top: 15px; */
-    /* height: 140px; */
+    height: 160px;
     width: var(--tamanho);
 }
 .ponto-adic{
@@ -67,6 +75,7 @@
     background-color: #FFFFFF;
 }
 .h1-icon{
+    margin-left: 3px;
     font-size: 12px;
     color: #7A7A7A;
     background-color: #FFFFFF;
@@ -116,3 +125,45 @@
     color: #7A7A7A;
     background-color: #ffffff;
 }
+.h1-destaque{
+    text-align: center;
+    margin: 30px;
+    color: #9C4512;
+}
+.h1-sabo{
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #92400E;
+}
+.h1-rece{
+    color: #F5D87A;
+    margin-top: 5px;
+    font-size: 15px;
+    background-color: #92400E;
+}
+.footer{
+    /* margin-left: 15px; */
+    background-color: #92400E;
+}
+footer{
+    margin-top: 40px;
+    background-color: #92400E;
+    border: 30px solid #92400E;
+    border-left-width: 40px;
+}
+a{
+    display: inline-block; /* Permite transformações */
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease; /* Suaviza o movimento */
+}
+a:hover{
+    transform: translateY(10px); /* Move 10px para baixo */
+    color: red; /* Muda a cor ao passar o mouse */
+}
+
+/* main{
+    background-color: #FFF3C2;
+} */

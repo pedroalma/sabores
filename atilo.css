@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+:root {
+    --largura: 0px;
+    --altura: 0px;
+}
+.img-rec{
+    width: var(--largura);
+    height: 400px;
+}
+.img-reca{
+    position: relative;
+    display: inline-block;
+}
+.text-img{
+    position: absolute;
+    bottom: 30px;  
+    left: 30px;  
+}
+.h1-cima{
+    font-size: 35px;
+}
+.h1-baixo{
+    width: 570px;
+    font-size: 15px;
+}
