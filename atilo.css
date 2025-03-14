@@ -43,3 +43,27 @@
     left: 10px;
     right: 0px;
 }
+.tempo-rec{
+    display: flex;
+}
+.tempo-img{
+    width: 30px;
+    height: 30px;
+}
+.tempot-img{
+    width: 30px;
+    height: 25px;
+}
+.tempo-h1{
+    font-size: 18px;
+    font-weight: 100;
+}
+.tempo-h2{
+    font-size: 22px;
+}
+.tempordi{
+    display: flex;
+}
+.caixatpd{
+    background-color: aqua;
+}

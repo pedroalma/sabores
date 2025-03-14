@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamanho da Tela</title>
-    <link rel="stylesheet" href="test.css">
+    <title>Botões Mudam Texto</title>
+    <script>
+        function mudarTexto() {
+            document.getElementById("meuTexto").innerHTML = "O texto foi alterado!";
+        }
+        
+        function restaurarTexto() {
+            document.getElementById("meuTexto").innerHTML = "Este é o texto original.";
+        }
+    </script>
 </head>
 <body>
-    <div class="container">
-        <img src="./../img/re.png" alt="Nome da Imagem">
-        <span class="nome">Nome da Imagem</span>
-    </div>
+    <button onclick="mudarTexto()">Mudar Texto</button>
+    <button onclick="restaurarTexto()">Restaurar Texto</button>
+    <p id="meuTexto">Este é o texto original.</p>
 </body>
 </html>
