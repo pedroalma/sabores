@@ -5,9 +5,49 @@ body {
 }
 button {
     margin: 5px;
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+.default {
+    background-color: lightgray;
+}
+.primary {
+    background-color: blue;
+    color: white;
+}
+.secondary {
+    background-color: gray;
+    color: white;
+}
+.danger {
+    background-color: red;
+    color: white;
+}
+.success {
+    background-color: green;
+    color: white;
+}
+.rounded {
+    border-radius: 20px;
+}
+.outline {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.shadow {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.large {
+    font-size: 20px;
+    padding: 15px 20px;
+}
+.small {
+    font-size: 12px;
+    padding: 5px 10px;
 }
 ul {
     list-style-type: disc;
