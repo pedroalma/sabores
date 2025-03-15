@@ -1,15 +1,28 @@
-.container {
-    position: relative;
-    display: inline-block;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
 }
-
-.nome {
-    position: absolute;
-    bottom: 10px;  
-    left: 10px;    
-    /* background: rgba(0, 0, 0, 0.5); 
-    color: white;
-    padding: 5px 10px;
-    font-size: 14px;
-    border-radius: 3px; */
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: disc;
+}
+ul li {
+    font-size: 18px;
+}
+ul li::marker {
+    font-size: 1.5em;
+}
+ul li:first-child {
+    font-weight: bold;
+    color: red;
+}
+.segundo-item {
+    font-style: italic;
+    color: blue;
 }

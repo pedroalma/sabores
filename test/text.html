@@ -1,22 +1,18 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Botões Mudam Texto</title>
-    <script>
-        function mudarTexto() {
-            document.getElementById("meuTexto").innerHTML = "O texto foi alterado!";
-        }
-        
-        function restaurarTexto() {
-            document.getElementById("meuTexto").innerHTML = "Este é o texto original.";
-        }
-    </script>
+    <link rel="stylesheet" href="test.css">
+    <script src="agn.js" defer></script>
 </head>
 <body>
+    <div class=""></div>
     <button onclick="mudarTexto()">Mudar Texto</button>
     <button onclick="restaurarTexto()">Restaurar Texto</button>
     <p id="meuTexto">Este é o texto original.</p>
 </body>
 </html>
+

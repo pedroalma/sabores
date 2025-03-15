@@ -1,19 +1,19 @@
-function atualizarTamanho() {
-    // Pega a largura e altura da janela
-    const largura = window.innerWidth;
-    const altura = window.innerHeight;
-
-    // Define as variáveis CSS no :root
-    document.documentElement.style.setProperty('--largura', `${largura}px`);
-    document.documentElement.style.setProperty('--altura', `${altura}px`);
-
-    // Atualiza o conteúdo da página para mostrar as dimensões
-    const resultadoDiv = document.getElementById('resultado');
-    resultadoDiv.innerHTML = `Largura da janela: ${largura}px <br> Altura da janela: ${altura}px`;
+function mudarTexto() {
+    document.getElementById("meuTexto").innerHTML = `
+        <ul>
+            <li>400 g de cogumelos frescos (preferencialmente tipo: paris/champignon, pode usar shimeji e shitake mas eu ainda não tentei)</li>
+            <li class="segundo-item">1 cebola picadinha</li>
+            <li>1 xícara e meia de arroz arbóreo (arroz para risoto)</li>
+            <li>½ xícara de vinho branco seco (eu uso às vezes um pouco menos de 1 xícara)</li>
+            <li>6 xícaras de caldo de legumes (dissolver 1 tablete e 1/2 de caldo de legumes em 6 xícaras de água fervente)</li>
+            <li>6 colheres (sopa) parmesão ralado (mais ou menos 60 g)</li>
+            <li>Azeite de oliva</li>
+            <li>4 dentes de alho</li>
+            <li>Um maço de salsinha picadinha</li>
+            <li>Sal e pimenta</li>
+        </ul>`;
 }
 
-// Chama a função para definir as variáveis logo que a página é carregada
-atualizarTamanho();
-
-// Escuta o redimensionamento da janela
-window.addEventListener('resize', atualizarTamanho);
+function restaurarTexto() {
+    document.getElementById("meuTexto").innerHTML = "Este é o texto original.";
+}

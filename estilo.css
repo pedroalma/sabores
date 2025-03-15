@@ -3,6 +3,9 @@
     font-family: sans-serif;
     background-color: #FFF3C2;
 }
+html {
+    scrollbar-width: none;
+}
 a {
     text-decoration: none;
 }
@@ -168,10 +171,10 @@ a:hover{
     transform: translateY(10px); /* Move 10px para baixo */
     color: red; /* Muda a cor ao passar o mouse */
 }
-h1{
+/* h1{
     color: #7A7A7A;
     background-color: #F5D87A;
-}
+} */
 
 /* main{
     background-color: #FFF3C2;

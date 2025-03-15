@@ -15,7 +15,7 @@ atualizarVariaveisCSS();
 // Atualiza automaticamente sempre que a janela for redimensionada
 window.addEventListener('resize', atualizarVariaveisCSS);
 function mudarTexto() {
-    document.getElementById("meuTexto").innerHTML = "O texto foi alterado!";
+    document.getElementById("meuTexto").innerHTML = "";
 }
 
 function restaurarTexto() {
