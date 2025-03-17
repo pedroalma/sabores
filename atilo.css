@@ -2,6 +2,23 @@
     margin: 0;
     font-family: sans-serif;
 }
+.getpo{
+    background-color: #b12c5b;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.buton{
+    width: 200px;
+    height: 30px;
+}
+.caixao{
+    margin-top: -5px;
+    display: flex;
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    justify-content: space-between;
+}
 :root {
     --largura: 0px;
     --altura: 0px;
@@ -36,15 +53,19 @@
     /* margin-left: 20px; */
 }
 .seta-h1{
-    margin-left:27px;
+    margin-left:15px;
+    font-size: 18px;
+    font-weight: 100;
 }
 .imgu-img{
     position: relative;
     left: 10px;
     right: 0px;
+    height: 30px;
 }
 .tempo-rec{
     display: flex;
+    margin-left: 20px;
 }
 .tempo-img{
     width: 30px;
@@ -57,18 +78,22 @@
 .tempo-h1{
     font-size: 18px;
     font-weight: 100;
+    margin-left: 10px;
 }
 .tempo-h2{
+    font-weight: 10;
     font-size: 22px;
+    margin-left: 10px;
 }
 .tempordi{
     display: flex;
+    border-bottom: 1px #F34DA9 solid;
     /* margin-left: 10px; */
     /* justify-content: space-around; */
 }
 .caixatpd{
     background-color: aqua;
-    width: 600px;
+    /* width: var(--argura); */
 }
 .div-h1{
     display: flex;
@@ -86,4 +111,9 @@ html {
     border: 5px solid #F4F4F5;
     border-radius: 5px;
     width: 95%;
+}
+.info{
+    background-color: #ffff;
+    width: 400px;
+    height: 210px;
 }

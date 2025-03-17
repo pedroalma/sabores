@@ -21,9 +21,9 @@
         </div>
 
         <div class="caixao">
-            <div class="caixatpd">
+            <div id="caixatpd" class="caixatpd" >
                 <div>
-                    <a class="seta-img" href="./index.html">
+                    <a id="seta-img" class="seta-img" href="./index.html">
                         <img class="imgu-img" src="./img/set.png">
                         <h1 class="seta-h1">Voltar para receitas</h1>
                     </a>
@@ -55,24 +55,12 @@
 
                     <div>
                         <div class="snsng">
-                            <button onclick="restaurarTexto()">Ingredientes</button>
-                            <button onclick="mudarTexto()">Modo de Preparo</button>
-                            <p id="meuTexto">
+                            <div class="getpo">
+                            <button class="buton" onclick="restaurarTexto()">Ingredientes</button>
+                            <button class="buton" onclick="mudarTexto()">Modo de Preparo</button>
                         </div>
-                        <ul>
-                            <li>300g de arroz arbóreo</li>
-                            <li>200g de cogumelos variados (paris,shitake,portobello)</li>
-                            <li>1 cebola média picada</li>
-                            <li>2 dentes de alho picados</li>
-                            <li>150ml de vinho branco seco</li>
-                            <li>1L de caldo de legumes quente</li>
-                            <li>50g de manteiga</li>
-                            <li>100g de queijo parmesão ralado</li>
-                            <li>2 colheres de sopa de azeite de oliva</li>
-                            <li>sal e pimenta a gosto</li>
-                            <li>salsinha picada para finalizar</li>
-                        </ul>
-                        </p>
+                            <p id="meuTexto"> </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,6 +94,7 @@
         </div>
     </main>
     <script src="js.js"></script>
+    <script src="javinha.js"></script>
 </body>
 
 </html>

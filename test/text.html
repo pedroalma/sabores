@@ -1,25 +1,42 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botões Mudam Texto</title>
-    <link rel="stylesheet" href="test.css">
-    <script src="agn.js" defer></script>
+    <title>Restaurar Texto</title>
 </head>
 <body>
-    <button class="default" onclick="mudarTexto()">Mudar Texto</button>
-    <button class="default" onclick="restaurarTexto()">Restaurar Texto</button>
-    <button class="primary">Primário</button>
-    <button class="secondary">Secundário</button>
-    <button class="danger">Perigo</button>
-    <button class="success">Sucesso</button>
-    <button class="rounded">Arredondado</button>
-    <button class="outline">Contorno</button>
-    <button class="shadow">Sombra</button>
-    <button class="large">Grande</button>
-    <button class="small">Pequeno</button>
-    <p id="meuTexto">Este é o texto original.</p>
+
+    <p id="meuTexto"></p>
+    
+    <button onclick="mudarTexto()">Mudar Texto</button>
+    <button onclick="restaurarTexto()">Restaurar Texto</button>
+
+    <script>
+        function mudarTexto() {
+            document.getElementById("meuTexto").innerHTML = `sim`;
+        }
+
+        function restaurarTexto() {
+            document.getElementById("meuTexto").innerHTML = `
+                <ul>
+                    <li>400 g de cogumelos frescos (preferencialmente tipo: paris/champignon, pode usar shimeji e shitake mas eu ainda não tentei)</li>
+                    <li class="segundo-item">1 cebola picadinha</li>
+                    <li>1 xícara e meia de arroz arbóreo (arroz para risoto)</li>
+                    <li>½ xícara de vinho branco seco (eu uso às vezes um pouco menos de 1 xícara)</li>
+                    <li>6 xícaras de caldo de legumes (dissolver 1 tablete e 1/2 de caldo de legumes em 6 xícaras de água fervente)</li>
+                    <li>6 colheres (sopa) parmesão ralado (mais ou menos 60 g)</li>
+                    <li>Azeite de oliva</li>
+                    <li>4 dentes de alho</li>
+                    <li>Um maço de salsinha picadinha</li>
+                    <li>Sal e pimenta</li>
+                </ul>`;
+        }
+
+        // Chama a função automaticamente ao carregar a página
+        window.onload = restaurarTexto;
+    </script>
+
 </body>
 </html>
