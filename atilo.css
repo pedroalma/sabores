@@ -24,8 +24,8 @@
     --altura: 0px;
 }
 .img-rec{
-    width: var(--largura);
-    height: 400px;
+    /* width: var(--largura);
+    height: 400px; */
 }
 .img-reca{
     position: relative;
@@ -115,5 +115,5 @@ html {
 .info{
     background-color: #ffff;
     width: 400px;
-    height: 210px;
+    /* height: 210px; */
 }
