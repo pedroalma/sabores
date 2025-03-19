@@ -17,6 +17,7 @@ window.addEventListener('resize', atualizarVariaveisCSS);
 
 function mudarTexto() {
     document.getElementById("meuTexto").innerHTML = `sim`;
+    medirTamanho();
 }
 function restaurarTexto() {
     document.getElementById("meuTexto").innerHTML = `
@@ -32,5 +33,24 @@ function restaurarTexto() {
             <li>Um maço de salsinha picadinha</li>
             <li>Sal e pimenta</li>
         </ul>`;
+        medirTamanho();
 }
 window.onload = restaurarTexto;
+
+console.log(mudarTexto.toString().length);
+console.log(restaurarTexto.toString().length);
+
+function medirTamanho() {
+    var elemento = document.getElementById("meuTexto");
+    var gura = elemento.offsetWidth;
+    var tura = elemento.offsetHeight;
+    
+    console.log("Largura: " + gura + "px");
+    console.log("Altura: " + tura + "px");
+
+    document.documentElement.style.cssText = `
+        --argura: ${gura}px;
+        --ltura: ${tura}px;
+    `;
+}
+

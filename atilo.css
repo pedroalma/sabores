@@ -15,17 +15,19 @@
 .caixao{
     margin-top: -5px;
     display: flex;
-    margin-left: 20px;
+    margin-left: 40px;
     /* margin-right: 20px; */
     justify-content: space-between;
+    margin-right:40px;
 }
 :root {
+    ----argura:0px;
     --largura: 0px;
     --altura: 0px;
 }
 .img-rec{
-    /* width: var(--largura);
-    height: 400px; */
+    width: var(--largura);
+    height: 400px; 
 }
 .img-reca{
     position: relative;
@@ -63,6 +65,10 @@
     right: 0px;
     height: 30px;
 }
+.tempo-rec1{
+    display: flex;
+    margin-left: -5px;
+}
 .tempo-rec{
     display: flex;
     margin-left: 20px;
@@ -87,15 +93,17 @@
 }
 .tempordi{
     display: flex;
-    border-bottom: 1px #F34DA9 solid;
-    /* margin-left: 10px; */
+    border-bottom: 1.5px #F34DA9 solid;
+    /* width: calc(var(--argura) - 39px); */
+    margin-left: 13.5px;
     /* justify-content: space-around; */
 }
 .caixatpd{
     background-color: aqua;
-    /* width: var(--argura); */
+    /* width: var(--argura);  */
 }
 .div-h1{
+    font-size: 10px;
     display: flex;
 }
 html {
@@ -109,11 +117,24 @@ html {
 .snsng{
     background-color: #F4F4F5;
     border: 5px solid #F4F4F5;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     width: 95%;
+    height: 95%;
 }
 .info{
     background-color: #ffff;
     width: 400px;
     /* height: 210px; */
+}
+.nutr{
+    font-size: 10px;
+}
+.div-h1{
+    display: flex;
+    justify-content: space-between;
+}
+.geji{
+    display: flex;
+    justify-content: center;
+    height: 370px;
 }

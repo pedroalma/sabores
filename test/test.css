@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
@@ -65,4 +65,20 @@ ul li:first-child {
 .segundo-item {
     font-style: italic;
     color: blue;
+} */
+.container {
+    text-align: justify;
+    display: block;
+    width: 100%;
+}
+
+.container::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.container div {
+    display: inline-block;
+    width: 45%;
 }
