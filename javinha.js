@@ -39,17 +39,4 @@
 //         console.log("Elemento não encontrado.");
 //     }
 // }
-function medirTamanho() {
-    var elemento = document.getElementById("meuTexto");
-    var gura = elemento.offsetWidth;
-    var tura = elemento.offsetHeight;
-    
-    console.log("Largura: " + gura + "px");
-    console.log("Altura: " + tura + "px");
-
-    document.documentElement.style.cssText = `
-        --argura: ${gura}px;
-        --ltura: ${tura}px;
-    `;
-}
 

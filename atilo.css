@@ -3,7 +3,7 @@
     font-family: sans-serif;
 }
 .getpo{
-    background-color: #b12c5b;
+    background-color: #F4F4F5;
     height: 50px;
     display: flex;
     align-items: center;
@@ -21,7 +21,6 @@
     margin-right:40px;
 }
 :root {
-    ----argura:0px;
     --largura: 0px;
     --altura: 0px;
 }
@@ -82,20 +81,22 @@
     height: 25px;
 }
 .tempo-h1{
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 100;
     margin-left: 10px;
 }
 .tempo-h2{
-    font-weight: 10;
-    font-size: 22px;
+    font-size: 16px;
+    font-weight: 200;
     margin-left: 10px;
 }
 .tempordi{
+    margin-left: 15px;
+    padding-bottom: 10px;
     display: flex;
-    border-bottom: 1.5px #F34DA9 solid;
-    /* width: calc(var(--argura) - 39px); */
-    margin-left: 13.5px;
+    /* border-bottom: 1.5px #F34DA9 solid; */
+    /* width: 1000px;  */
+    /* margin-left: 13.5px; */
     /* justify-content: space-around; */
 }
 .caixatpd{
@@ -120,6 +121,8 @@ html {
     /* border-radius: 5px; */
     width: 95%;
     height: 95%;
+    border-top: 1.5px solid #F34DA9;
+    padding-top: 20px;
 }
 .info{
     background-color: #ffff;
@@ -137,4 +140,7 @@ html {
     display: flex;
     justify-content: center;
     height: 370px;
+}
+.buton{
+    
 }
